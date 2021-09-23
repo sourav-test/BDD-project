@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name = "DCOM Automation" thread-count="7" parallel="tests">
+
+<!--                    ************   Regression Test   **************             -->
+  
+
+    <test name = "Access Control And Share Contract">
+        <classes>
+            <class name = "com.chorus.runners.regression.TestRunner_AccessControl_ShareContract" />
+        </classes>
+    </test>
+
+    <test name = "Assign Contract Dashboard Filter And Sorting Contract Status Twin Contract">
+        <classes>
+            <class name = "com.chorus.runners.regression.TestRunner_ContractAssign_DashboardFilterAndSorting_ContractStatus_TwinContract" />
+        </classes>
+    </test>
+
+    <test name = "Contract Notification Retract Amend Termination">
+        <classes>
+            <class name = "com.chorus.runners.regression.TestRunner_ContractNotification_Retract_Amend_Termination" />
+        </classes>
+    </test>
+
+    <test name = "Endorsement Amend Retract Renewal">
+        <classes>
+            <class name = "com.chorus.runners.regression.TestRunner_Endorsement_Amend_Retract_Renewal" />
+        </classes>
+    </test>
+
+    <test name = "ValidateGeneralContractInfo_ContractDuplicate_ContractLinkingDelinking">
+        <classes>
+            <class name = "com.chorus.runners.regression.TestRunner_ValidateGeneralContractInfo_ContractDuplicate_LinkingDelinking_NotListed" />
+        </classes>
+    </test>
+
+    <test name = "Validate Section Details Part 1">
+        <classes>
+            <class name = "com.chorus.runners.regression.TestRunner_ValidateSectionDetails_1" />
+        </classes>
+    </test>
+
+    <test name = "Validate Section Details Part 2">
+        <classes>
+            <class name = "com.chorus.runners.regression.TestRunner_ValidateSectionDetails_2" />
+        </classes>
+    </test>
+    
+
+
+
+<!--                   **************   Smoke Test  ********************          -->
+
+ 
+    <!--<test name = "Smoke Test Termination Endorsement">
+        <classes>
+            <class name = "com.chorus.runners.smoke.TestRunner_TerminationEndorsement" />
+        </classes>
+    </test>
+
+    <test name = "Smoke Test ContractSubmitCopySection">
+        <classes>
+            <class name = "com.chorus.runners.smoke.TestRunner_ContractSubmitCopySection" />
+        </classes>
+    </test>
+
+    <test name = "Smoke Test Endorsement">
+        <classes>
+            <class name = "com.chorus.runners.smoke.TestRunner_Endorsement" />
+        </classes>
+    </test>
+
+    <test name = "Smoke Test Renewal">
+        <classes>
+            <class name = "com.chorus.runners.smoke.TestRunner_Renewal" />
+        </classes>
+    </test>
+
+    <test name = "Smoke Test Duplicate Contract">
+        <classes>
+            <class name = "com.chorus.runners.smoke.TestRunner_DuplicateContract" />
+        </classes>
+    </test>-->
+
+
+</suite>
